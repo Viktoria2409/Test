@@ -1,0 +1,8 @@
+o
+
+    ��sd"   �                   @   s&   d dl Zd dlm  mZ dd� ZdS )�    Nc                  C   s�   d} d}| | }d}||k}|s7t �d|fd||f�t �| �t �|�t �|�d� }dd|i }tt �|���d  }  } } }}d S )N�   �   )�==)z(%(py1)s + %(py3)s) == %(py7)s)Zpy1Zpy3Zpy7zassert %(py9)sZpy9)�
+@pytest_ar�_call_reprcompare�	_saferepr�AssertionError�_format_explanation)Z@py_assert0Z@py_assert2Z@py_assert4Z@py_assert6Z@py_assert5Z@py_format8Z@py_format10� r
+   �>   C:\Users\Надежда\PycharmProjects\pythonProject1\Test.py�test_sum   s   �r   )�builtins�@py_builtins�_pytest.assertion.rewrite�	assertion�rewriter   r   r
+   r
+   r
+   r   �<module>   s   & 
